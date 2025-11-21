@@ -1,0 +1,40 @@
+#message {
+    position: absolute;
+    font-size: xx-large;
+    top: 5%;
+    left: 20%;
+}
+
+#timer {
+    font-size: xx-large;
+}
+
+#letters1, #letters2, #letters3 {
+    position: absolute;
+    left: 20%;
+    height: 300px;
+    width: 500px;
+    margin: 0;
+    display: flex;
+    white-space: pre;
+}
+
+#letters1 {
+    top: 15%;
+}
+
+#letters2 {
+    top: 20%;
+}
+
+#letters3 {
+    top: 25%;
+}
+
+#typedLetters {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    height: 150px;
+    width: 520px;
+}
