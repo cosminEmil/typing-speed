@@ -9,7 +9,7 @@
     font-size: xx-large;
 }
 
-#letters1, #letters2, #letters3 {
+#letters1, #letters2, #letters3, #letters4, #letters5, #letters6 {
     position: absolute;
     left: 20%;
     height: 300px;
@@ -31,10 +31,22 @@
     top: 25%;
 }
 
+#letters4 {
+    top: 30%;
+}
+
+#letters5 {
+    top: 35%;
+}
+
+#letters6 {
+    top: 40%;
+}
+
 #typedLetters {
     position: absolute;
     left: 20%;
-    top: 40%;
+    top: 45%;
     height: 150px;
     width: 520px;
 }
