@@ -45,10 +45,6 @@ function start() {
     generateSentences();
 }
 
-let firstSentence = document.getElementById('letters1'), secondSentence = document.getElementById('letters2');
-let thirdSentence = document.getElementById('letters3'), fourthSentence = document.getElementById('letters4');
-let fifthSentence = document.getElementById('letters5'), sixthSentence = document.getElementById('letters6');
-
 let currentLetterIndex = 0, isCorrect = 1, wordCounter = 0;
 
 function checkLettersEquality(inTextLetter, typedLetter, textLetterColor) {
